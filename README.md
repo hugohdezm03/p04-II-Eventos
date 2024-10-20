@@ -20,3 +20,9 @@ Se ha creado una escena en la que se añade un cubo cinemático, un cilindro fí
 [Enlace al Script esferas grupo 1.](./Scripts/MoveToGroup2SpheresWhenCubeCollision.cs)
 
 [Enlace al Script esferas grupo 2.](./Scripts/MoveToCylinderWhenCubeCollision.cs)
+
+## Actividad 2
+
+Se sustituyen las esferas y los cilindros por arañas y huevos de arañas respectivamente. Se añade un huevo para que haya uno de cada tipo de araña.
+
+![Foto actividad 2](./docs/p04_II_actividad_02.png)
