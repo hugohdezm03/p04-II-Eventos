@@ -32,14 +32,6 @@ public class Group1SpidersMoveTo : MonoBehaviour
     {
         
     }
-    
-    // void moveToReferenceObject(GameObject collisionObject)
-    // {
-    //     if (collisionObject.tag == "spiders_group_2")
-    //     {
-    //         GetComponent<Rigidbody>().AddForce((referenceObject.transform.position - transform.position).normalized * force, ForceMode.Impulse);
-    //     }
-    // }
 
     void moveToReferenceOnGroup1Object()
     {

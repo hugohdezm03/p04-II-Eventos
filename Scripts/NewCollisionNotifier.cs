@@ -21,12 +21,6 @@ public class NewCollisionNotifier : MonoBehaviour
         
     }
 
-    // void OnCollisionEnter(Collision collision)
-    // {
-    //     Debug.Log("Collision detected with " + collision.gameObject.name);
-    //     onAllCollisions(collision.gameObject);
-    // }
-
     void OnCollisionEnter(Collision collision)
     {
         switch (collision.gameObject.tag)
