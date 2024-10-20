@@ -11,12 +11,12 @@ Se ha creado una escena en la que se añade un cubo cinemático, un cilindro fí
 * Esferas Grupo 1 (color amarillo).
 * Esferas Grupo 2 (color naranja).
 
-![GIF actividad 1]()
+![GIF actividad 1](./docs/p04_II_actividad_01.gif)
 
-[Enlace al Script de movimiento del cubo.]()
+[Enlace al Script de movimiento del cubo.](./Scripts/PlayWithObject.cs)
 
-[Enlace al Script Notificador.]()
+[Enlace al Script Notificador.](./Scripts/CollisionNotifier.cs)
 
-[Enlace al Script esferas grupo 1.]()
+[Enlace al Script esferas grupo 1.](./Scripts/MoveToGroup2SpheresWhenCubeCollision.cs)
 
-[Enlace al Script esferas grupo 2.]()
+[Enlace al Script esferas grupo 2.](./Scripts/MoveToCylinderWhenCubeCollision.cs)
