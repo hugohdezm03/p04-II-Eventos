@@ -31,7 +31,7 @@ Se sustituyen las esferas y los cilindros por arañas y huevos de arañas respec
 
 Tras cambiar la escena, se mantiene el Script del movimiento del cubo. Se genera un nuevo Script notificador (que se asocia al cubo) que lanzará diferentes eventos (uno relacionado con la colision del cubo con las arañas del grupo 1 y otro para las colisiones con las arañas del grupo 2). Las arañas de tipo 1 implementan un Script que modifica su ejecucion según si el cubo se choca con las arañas de tipo 1 (arañas de tipo 1 van hacia el huevo de tipo 2) o con las arañas de tipo 2 (arañas de tipo 1 van hacia el huevo de tipo 1). Por último, se ha creado un Script asociado a los huevos en el que, si se detecta una colisión con algún tipo de araña, se cambia el color del propio huevo por uno aleatorio.
 
-![GIF actividad 3]()
+![GIF actividad 3](./docs/p04_II_actividad_03.gif)
 
 [Enlace al Script de movimiento del cubo.](./Scripts/PlayWithObject.cs)
 
