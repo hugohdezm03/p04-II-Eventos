@@ -26,9 +26,9 @@ public class TeleportCollectedEgg : MonoBehaviour
         float z = Random.Range(-5.0f, 5.0f);
         egg.transform.position = new Vector3(x, 0.5f, z);
 
+        rb.isKinematic = false;
+
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
-
-        rb.isKinematic = false;
     }
 }

@@ -80,3 +80,23 @@ Se ha añadido un Canvas y un objeto hijo del mismo del tipo TextMeshPro. Se ha 
 [Enlace al Script de la mecánica modificado.](./Scripts/EggCollect_act_06.cs)
 
 [Enlace al Script que actualiza el valor del texto.](./Scripts/ChangeCanvasScore.cs)
+
+## Actividad 7
+
+Se añade al script de la mecánica del juego un evento cuando el jugador obtiene 100 puntos (y multiplos de 100 diferentes de 0). Se añade una recompensa en la UI. La recompensa es un texto que se muestra durante 2 segundos. Se modifica el Script de la mecánica para que notifique cuando la puntuación del jugador cumple la condición dada. Se añade un suscriptor que deja ver la recompensa durante dos segundos, para ello se hace uso de una corrutina.
+
+![GIF actividad 7.](./docs/p04_II_actividad_07.gif)
+
+[Enlace al Script de la mecánica modificado.]()
+
+[Enlace al Script que muestra la recompensa.]()
+
+## Actividad 8
+
+## Actividad 9
+
+Se ha cambiado el Script de movimiento del cubo de la actividad 3 por uno en el que se mueva mediante fuerzas (ya que ahora es un cubo físico).
+
+![GIF actividad 9.](./docs/p04_II_actividad_09.gif)
+
+[Enlace al Script de movimiento del cubo físico.]()

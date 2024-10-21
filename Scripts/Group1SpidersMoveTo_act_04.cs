@@ -64,10 +64,10 @@ public class Group1SpidersMoveTo : MonoBehaviour
         rb.isKinematic = true;
         transform.position = targetEgg.transform.position + new Vector3(0.0f + (Group1SpidersMoveTo.spiders_counter * 5.5f), 0.0f, -2.5f);
         Group1SpidersMoveTo.spiders_counter++;
-        
-        rb.velocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
 
         rb.isKinematic = false;
+
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
     }
 }
