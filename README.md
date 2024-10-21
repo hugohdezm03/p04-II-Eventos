@@ -49,8 +49,8 @@ Como curiosidad, para evitar que las arañas caigan encima del huevo o encima un
 
 ![GIF actividad 4](./docs/p04_II_actividad_04.gif)
 
-[Enlace al Script Notificador del cubo actualizado.]()
+[Enlace al Script Notificador del cubo actualizado.](./Scripts/NewCollisionNotifier_act_04.cs)
 
-[Enlace al Script de las Arañas de tipo 1 actualizado.]()
+[Enlace al Script de las Arañas de tipo 1 actualizado.](./Scripts/Group1SpidersMoveTo_act_04.cs)
 
-[Enlace al Script de las Arañas de tipo 2.]()
+[Enlace al Script de las Arañas de tipo 2.](./Scripts/Group2SpidersLookAt.cs)
