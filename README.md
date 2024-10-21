@@ -93,6 +93,16 @@ Se añade al script de la mecánica del juego un evento cuando el jugador obtien
 
 ## Actividad 8
 
+Se han aplicado los conocimientos adquiridos hasta ahora para implementar un sencillo simulador de un circuito. Se ha creado una escena con diferentes assets obtenidos en la asset store (coche, que será un elemento cinemático, y trozos de pista). Se ha añadido un elemento auxiliar (con collider trigger) en la meta y un canvas con un texto que muestra la vuelta en la que nos encontramos. Al pasar por la línea de meta se actualiza el contador de vueltas. Se han implementado tres Scripts, uno que se encarga del movimiento del coche y de la cámara, otro que se encarga de manejar la dinámica (contar vueltas y lanzar un evento cuando se cambie de vuelta) y un último que se encarga de actualizar el texto del canvas. A continuación se muestra un GIF del simulador en funcionamiento:
+
+![GIF actividad 8.](./docs/p04_II_actividad_08.gif)
+
+[Enlace al Script de movimiento del coche y cámara.]()
+
+[Enlace al Script de dinámica del juego.]()
+
+[Enlace al Script suscriptor que actualiza el número de vuelta.]()
+
 ## Actividad 9
 
 Se ha cambiado el Script de movimiento del cubo de la actividad 3 por uno en el que se mueva mediante fuerzas (ya que ahora es un cubo físico). Además, se observa en el GIF que ahora lo que cambia de color al chocar con los huevos de tipo 1 no son los huevos, son las arañas.
