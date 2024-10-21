@@ -87,9 +87,9 @@ Se añade al script de la mecánica del juego un evento cuando el jugador obtien
 
 ![GIF actividad 7.](./docs/p04_II_actividad_07.gif)
 
-[Enlace al Script de la mecánica modificado.]()
+[Enlace al Script de la mecánica modificado.](./Scripts/EggCollect_act_07.cs)
 
-[Enlace al Script que muestra la recompensa.]()
+[Enlace al Script que muestra la recompensa.](./Scripts/ShowReward.cs)
 
 ## Actividad 8
 
