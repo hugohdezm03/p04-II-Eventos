@@ -63,10 +63,10 @@ En primer lugar, se crea un nuevo Script adicionado al cubo que implementa la me
 
 ![GIF actividad 5.](./docs/p04_II_actividad_05.gif)
 
-[Enlace al Script Notificador del cubo actualizado.]()
+[Enlace al Script Notificador del cubo actualizado.](./Scripts/NewCollisionNotifier_act_05.cs)
 
-[Enlace al Script del nuevo Notificador.]()
+[Enlace al Script del nuevo Notificador.](./Scripts/EggCollectNotifier.cs)
 
-[Enlace al Script de la mecánica.]()
+[Enlace al Script de la mecánica.](./Scripts/EggCollect.cs)
 
-[Enlace al Script de teletransportación de huevos.]()
+[Enlace al Script de teletransportación de huevos.](./Scripts/TeleportCollectedEgg.cs)
