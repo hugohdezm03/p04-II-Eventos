@@ -77,6 +77,6 @@ Se ha añadido un Canvas y un objeto hijo del mismo del tipo TextMeshPro. Se ha 
 
 ![GIF actividad 6.](./docs/p04_II_actividad_06.gif)
 
-[Enlace al Script de la mecánica modificado.]()
+[Enlace al Script de la mecánica modificado.](./Scripts/EggCollect_act_06.cs)
 
-[Enlace al Script que actualiza el valor del texto.]()
+[Enlace al Script que actualiza el valor del texto.](./Scripts/ChangeCanvasScore.cs)
