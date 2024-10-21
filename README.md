@@ -40,3 +40,17 @@ Tras cambiar la escena, se mantiene el Script del movimiento del cubo. Se genera
 [Enlace al Script de las Arañas de tipo 1.](./Scripts/Group1SpidersMoveTo.cs)
 
 [Enlace al Script de cambio de color de los huevos.](./Scripts/ChangeEggWhenSpiderCollides.cs)
+
+## Actividad 4
+
+En la actividad se solicita que, al colisionar con los huevos de tipo 1, las arañas de tipo 1 se teletrasporten hacia un objeto (se ha elegido el primer huevo de tipo 1) y que las arañas de tipo 2 miren hacia otro objeto (se ha seleccionado el primer huevo de tipo 2). Para la implementación se ha añadido al Script Notificador del cubo un evento que notifica las colisiones con los huevos de tipo 1. Al Script de las arañas de tipo 1 se le ha añadido una suscripción a este evento que hace que las arañas se trasladen (para permitir la teletrasportación hay que activar momentáneamente que sean cinemáticas, ya que son físicas perfectas). Se crea un Script que se suscribe al evento de colisión con el huevo de tipo 1 y que se añade a las arañas de tipo 2, éste se encarga de rotar las arañas haciendo uso del método de rigidBody **MoveRotation*** y como parámetro usando el método ***Quaternion.LookRotation***.
+
+Como curiosidad, para evitar que las arañas caigan encima del huevo o encima una de la otra en la teletrasportación, se ha usado una variable estática privada en el Script de las arañas de tipo 1 (`spiders_counter`) que se aumenta cada vez que se realiza una teletrasportación (y se resetea cuando es mayor o igual que el número). Ésta variable se usa para obtener la posición objetivo de las arañas (dependiente de la variable `spiders_counter`).
+
+![GIF actividad 4](./docs/p04_II_actividad_04.gif)
+
+[Enlace al Script Notificador del cubo actualizado.]()
+
+[Enlace al Script de las Arañas de tipo 1 actualizado.]()
+
+[Enlace al Script de las Arañas de tipo 2.]()
