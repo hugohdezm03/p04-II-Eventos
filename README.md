@@ -95,8 +95,8 @@ Se añade al script de la mecánica del juego un evento cuando el jugador obtien
 
 ## Actividad 9
 
-Se ha cambiado el Script de movimiento del cubo de la actividad 3 por uno en el que se mueva mediante fuerzas (ya que ahora es un cubo físico).
+Se ha cambiado el Script de movimiento del cubo de la actividad 3 por uno en el que se mueva mediante fuerzas (ya que ahora es un cubo físico). Además, se observa en el GIF que ahora lo que cambia de color al chocar con los huevos de tipo 1 no son los huevos, son las arañas.
 
 ![GIF actividad 9.](./docs/p04_II_actividad_09.gif)
 
-[Enlace al Script de movimiento del cubo físico.]()
+[Enlace al Script de movimiento del cubo físico.](./Scripts/PlayWithPhysicObject.cs)
