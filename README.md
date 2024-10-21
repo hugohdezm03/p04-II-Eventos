@@ -97,11 +97,11 @@ Se han aplicado los conocimientos adquiridos hasta ahora para implementar un sen
 
 ![GIF actividad 8.](./docs/p04_II_actividad_08.gif)
 
-[Enlace al Script de movimiento del coche y cámara.]()
+[Enlace al Script de movimiento del coche y cámara.](./Scripts/MoveCar.cs)
 
-[Enlace al Script de dinámica del juego.]()
+[Enlace al Script de dinámica del juego.](./Scripts/LapCounter.cs)
 
-[Enlace al Script suscriptor que actualiza el número de vuelta.]()
+[Enlace al Script suscriptor que actualiza el número de vuelta.](./Scripts/UpdateLapCounter.cs)
 
 ## Actividad 9
 
