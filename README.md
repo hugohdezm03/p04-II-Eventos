@@ -70,3 +70,13 @@ En primer lugar, se crea un nuevo Script adicionado al cubo que implementa la me
 [Enlace al Script de la mecánica.](./Scripts/EggCollect.cs)
 
 [Enlace al Script de teletransportación de huevos.](./Scripts/TeleportCollectedEgg.cs)
+
+## Actividad 6
+
+Se ha añadido un Canvas y un objeto hijo del mismo del tipo TextMeshPro. Se ha añadido a un objeto un Script que, al recibir una notificación del Script de la mecánica del juego (ligeramente modificado) actualiza el valor del texto.
+
+![GIF actividad 6.](./docs/p04_II_actividad_06.gif)
+
+[Enlace al Script de la mecánica modificado.]()
+
+[Enlace al Script que actualiza el valor del texto.]()
